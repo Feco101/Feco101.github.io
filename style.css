@@ -1,0 +1,46 @@
+.container{
+  width:1000px;
+}
+.head-container{
+  height:50px;
+  background: purple;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.head-container .item{
+  height:30px; 
+  margin-left: 10px;
+  background: cyan;
+}
+.cian1{
+  width:100px; 
+}
+.cian2{
+  width:150px;   
+}
+.cian3{
+  width:80px;  
+}
+.body-container{
+  height:500px;
+  background: black; 
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.body-container .item{ 
+  height:500px; 
+}
+.yellow{
+  /* width: 80%; */
+  flex-grow: 4;
+  background: yellow; 
+}
+.lime{
+  /* width: 20%; */
+  flex-grow: 1;
+  background: lime; 
+}
